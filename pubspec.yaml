@@ -1,0 +1,29 @@
+name: modul_2_public_api
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  
+  # http package
+  http: ^1.2.0
+  # dio package
+  dio: ^5.5.0+1
+  #WebView
+  webview_flutter: ^4.8.0
+  flutter: 
+    sdk: flutter
+  connectivity_plus: ^6.1.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
